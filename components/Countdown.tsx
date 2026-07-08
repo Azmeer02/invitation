@@ -64,7 +64,7 @@ export function Countdown() {
           className="mt-3 font-display text-3xl sm:text-4xl"
           style={{ color: "var(--heading)" }}
         >
-          {firstEvent.title}
+          Nikkah Ceremony
         </h2>
         <p
           className="mt-1 font-body text-sm"

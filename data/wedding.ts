@@ -20,8 +20,6 @@ export type WeddingEvent = {
   mapQuery: string;
   /** Emblem shown on the card + timeline. */
   icon: EventIcon;
-  /** Optional dress code / colour theme for this function. */
-  dress?: string;
 };
 
 export type RsvpContact = {
@@ -71,7 +69,6 @@ export const events: WeddingEvent[] = [
     venueName: "Mehran Farmhouse",
     mapQuery: "Mehran Farmhouse, Karachi",
     icon: "mehndi",
-    dress: "Festive yellows & greens",
   },
   {
     id: "baraat",
@@ -83,7 +80,6 @@ export const events: WeddingEvent[] = [
     venueName: "[Venue Name]",
     mapQuery: "[Venue Name, City]",
     icon: "baraat",
-    dress: "Traditional formal attire",
   },
   {
     id: "reception",
@@ -95,7 +91,6 @@ export const events: WeddingEvent[] = [
     venueName: "Parsa Banquet",
     mapQuery: "Parsa Banquet, Karachi",
     icon: "reception",
-    dress: "Elegant formal wear",
   },
 ];
 

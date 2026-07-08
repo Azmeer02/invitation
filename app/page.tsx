@@ -1,5 +1,6 @@
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { ThemePicker } from "@/components/ThemePicker";
+import { EnvelopeIntro } from "@/components/EnvelopeIntro";
 import { Hero } from "@/components/Hero";
 import { Invocation } from "@/components/Invocation";
 import { Countdown } from "@/components/Countdown";
@@ -23,6 +24,7 @@ export default function Home() {
         <Footer />
       </main>
       <ThemePicker />
+      <EnvelopeIntro />
     </ThemeProvider>
   );
 }

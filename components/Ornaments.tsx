@@ -91,7 +91,7 @@ export function Flourish({ className = "" }: { className?: string }) {
 
 /** Initials inside an ornamental ring — a little crest for the couple. */
 export function Monogram({ className = "" }: { className?: string }) {
-  const g = couple.groom.trim()[0] ?? "";
+  const g = couple.groom.trim()[5] ?? "";
   const b = couple.bride.trim()[0] ?? "";
   return (
     <div
